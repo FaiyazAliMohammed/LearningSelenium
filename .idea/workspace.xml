@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4de086-da23-4359-b3c8-feba9a31b899" name="Changes" comment="">
+    <list default="true" id="0e4de086-da23-4359-b3c8-feba9a31b899" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/selenium/Selenium10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/selenium/Selenium10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +29,30 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2fTQYXWomZ60ZcwBS2gslYcqIwm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Selenium08.executor": "Run",
+    "TestNG./Users/mohammedali/Documents/LearningSelenium/testng.xml.executor": "Run",
+    "TestNG.Selenium10.NewTC.executor": "Run",
+    "TestNG.Selenium10.executor": "Run",
+    "TestNG.Test01.executor": "Run",
+    "git-widget-placeholder": "main"
   }
+}]]></component>
+  <component name="RunManager" selected="TestNG.Selenium10">
+    <configuration name="Selenium08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium08" />
       <module name="LearningSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -40,22 +60,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Project.PraticeTestCase.selenium" />
+      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium10" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium10.NewTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Project.PraticeTestCase.selenium" />
+      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium10" />
+      <option name="METHOD_NAME" value="NewTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.Test01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,6 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium10" />
+        <item itemvalue="TestNG.Selenium10.NewTC" />
+        <item itemvalue="TestNG.Test01" />
+        <item itemvalue="Application.Selenium08" />
         <item itemvalue="TestNG./Users/mohammedali/Documents/LearningSelenium/testng.xml" />
       </list>
     </recent_temporary>
@@ -89,5 +142,9 @@
       <updated>1713822635770</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
