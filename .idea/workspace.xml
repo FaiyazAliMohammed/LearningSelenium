@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e4de086-da23-4359-b3c8-feba9a31b899" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/selenium/Selenium10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/selenium/Selenium10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/CanadaLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/otherCases/CanadaLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/TestCase02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/otherCases/TestCase02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PraticeTestCase/VwoRegTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/otherCases/VwoRegTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/otherCases/Test01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FaiyazAliMohammed"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FaiyazAliMohammed/LearningSelenium.git",
+    "accountId": "5fb1e1a1-ac52-44f2-8c2c-4ee0f398b289"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -42,24 +55,14 @@
     "TestNG./Users/mohammedali/Documents/LearningSelenium/testng.xml.executor": "Run",
     "TestNG.Selenium10.NewTC.executor": "Run",
     "TestNG.Selenium10.executor": "Run",
+    "TestNG.Selenium11.VwoLogin.executor": "Run",
+    "TestNG.Selenium11.executor": "Run",
     "TestNG.Test01.executor": "Run",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Selenium10">
-    <configuration name="Selenium08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium08" />
-      <module name="LearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Selenium11">
     <configuration name="Selenium10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
@@ -95,16 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project.*" />
+          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.Test01" />
+      <option name="PACKAGE_NAME" value="Project.PraticeTestCase.selenium" />
+      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium11" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,10 +115,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/mohammedali/Documents/LearningSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium11.VwoLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSelenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.PraticeTestCase.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project.PraticeTestCase.selenium" />
+      <option name="MAIN_CLASS_NAME" value="Project.PraticeTestCase.selenium.Selenium11" />
+      <option name="METHOD_NAME" value="VwoLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.otherCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.otherCases.Test01" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium11" />
+        <item itemvalue="TestNG.Selenium11.VwoLogin" />
         <item itemvalue="TestNG.Selenium10" />
         <item itemvalue="TestNG.Selenium10.NewTC" />
         <item itemvalue="TestNG.Test01" />
-        <item itemvalue="Application.Selenium08" />
-        <item itemvalue="TestNG./Users/mohammedali/Documents/LearningSelenium/testng.xml" />
       </list>
     </recent_temporary>
   </component>
