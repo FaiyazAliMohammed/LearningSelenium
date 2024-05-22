@@ -1,4 +1,4 @@
-package Project.otherCases;
+package Project.PraticeCases;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
